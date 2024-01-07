@@ -147,3 +147,10 @@ main{
     text-align: center;
     margin-top: 50px;
 }
+/* footer-styles */
+footer{
+    display: flex;
+    margin: 100px;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+}
