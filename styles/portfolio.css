@@ -151,6 +151,22 @@ main{
 footer{
     display: flex;
     margin: 100px;
+    gap: 100px;
     background-color: #FFF8F3;
     padding: 130px 200px;
+}
+.social-links a{
+    margin: 25px;
+}
+.footer-column{
+    width: 50%;
+}
+.contact input[type="text"], input[type="email"], textarea{
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 35px;
+    color: #757575;
+    background-color: #FFF;
+    border: 0;
+    width: 100%;
 }
