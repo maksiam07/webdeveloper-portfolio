@@ -103,7 +103,6 @@ main{
 }
 .skills-container{
     display: flex;
-    
     gap: 24px;
     
 }
@@ -170,4 +169,30 @@ footer{
     background-color: #FFF;
     border: 0;
     width: 100%;
+}
+/* responsive part */
+.hide{
+    display: none;
+}
+@media screen and (max-width: 576px) {
+    .header{
+        background-image: none ;
+    }
+    .btn-primary{
+        margin-bottom: 10px;
+    }
+    .skills-container, .resume-container, footer, .about-info-container, nav, .banner{
+        flex-direction: column;
+    }
+    .banner,
+    #what-i-do-description{
+        padding: 10px;
+    }
+    footer, .about{
+        padding: 10px;
+    }
+    .footer-column{
+        width: 100%;
+    }
+
 }
